@@ -1,0 +1,30 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<EjsButton IsPrimary="true" @onclick="Opslaan">Opslaan</EjsButton>
+
+<EjsTextBox Value="@naam"></EjsTextBox>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    int currentCount = 0;
+    string naam = "default";
+
+    void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    void Opslaan()
+    {
+        if (naam == "Arno")
+        {
+            // ok het gaat goed
+            int i = 0;
+        }
+    }
+}
