@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdul\\Desktop\\Sharp\\00 Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj": {}
+    "C:\\Users\\Abdul\\Desktop\\Werk\\Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdul\\Desktop\\Sharp\\00 Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj": {
+    "C:\\Users\\Abdul\\Desktop\\Werk\\Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdul\\Desktop\\Sharp\\00 Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj",
+        "projectUniqueName": "C:\\Users\\Abdul\\Desktop\\Werk\\Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj",
         "projectName": "01 Ej2.blazor_syncfusion",
-        "projectPath": "C:\\Users\\Abdul\\Desktop\\Sharp\\00 Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj",
+        "projectPath": "C:\\Users\\Abdul\\Desktop\\Werk\\Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion.csproj",
         "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdul\\Desktop\\Sharp\\00 Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\obj\\",
+        "outputPath": "C:\\Users\\Abdul\\Desktop\\Werk\\Blazor\\01 Ej2.blazor_syncfusion\\01 Ej2.blazor_syncfusion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

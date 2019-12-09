@@ -3,28 +3,52 @@
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
-
-<EjsButton IsPrimary="true" @onclick="Opslaan">Opslaan</EjsButton>
-
-<EjsTextBox Value="@naam"></EjsTextBox>
-
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<br />
+<hr />
+<div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+    <EjsTextBox @bind-Value="@Text" CssClass="@CssClass"></EjsTextBox>
+</div>
+<EjsButton IsPrimary="true" @onclick="Opslaan">Opslaan Je Naam</EjsButton>
+
+<EjsToast @ref="ToastObj" ID="toast_type">
+    <ToastPosition X="@ToastPosition"></ToastPosition>
+</EjsToast>
 
 @code {
     int currentCount = 0;
-    string naam = "default";
+    string Text { get; set; }
+    string CssClass = "e-outline e-small";
+    private string ToastPosition = "Right";
+    EjsToast ToastObj;
+    List<ToastModel> Toast = new List<ToastModel>
+{
+        new ToastModel{ Title = "Success!", Content="Your name has been save successfully.", CssClass="e-toast-success", Icon="e-success toast-icons" },
+    };
 
     void IncrementCount()
     {
         currentCount++;
     }
 
+    private void SuccessBtnOnClick()
+    {
+        this.ToastObj.Show(Toast[0]);
+    }
+
+
     void Opslaan()
     {
-        if (naam == "Arno")
+        if (Text != "Arno")
         {
-            // ok het gaat goed
-            int i = 0;
+            CssClass = "e-error e-small";
+            Text = "Ongeldig Naam";
+        }
+        else
+        {
+            CssClass = "e-success e-small";
+            SuccessBtnOnClick();
         }
     }
 }
